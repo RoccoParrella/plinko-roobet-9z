@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;   
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/img/background.jpg');
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+#defaultCanvas0{
+    margin: 70px 0 0 0;
+}
+
+#borde-entero{
+    position: absolute;
+    width: 1400px;
+    top: 10px;
+}
+
+.div-main{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 543px 0 0 0;
+    width: 600px;
+    justify-content: center;
+    background-color: #3a3867;
+    padding: 0 10px 100px;
+
+}
+
+.uno{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35.36px;
+    height: 38px;
+    background-color: #2af67b;
+    border-radius: 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #25d66b;
+}
+
+.dos{
+    font-size: 10px;
+    width: 35.36px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fc639b;
+    box-shadow: 0px 0px 10px #fc639b;
+    border-radius: 10px;
+    color: white;
+}
+
+.tres{
+    font-size: 10px;
+    width: 35.36px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d96fe;
+    box-shadow: 0px 0px 10px #0d96fe;
+    border-radius: 10px;
+    color: white;
+}
+
+.cuatro{
+    width: 35.36px;
+    height: 38px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a53fd;
+    box-shadow: 0px 0px 10px #6a53fd;
+    border-radius: 10px;
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.letter-8{
+    font-size: 18px;
+}
+
+.letter-9{
+    font-size: 9px;
+}
+
+.letter-10{
+    font-size: 20px;
+}
+
+.img-roobet{
+    width: 30px;
+    border-radius: 50%;
+}
+
+#z-index{
+    z-index: 10;
+}
+
+.key{
+    margin-left: 34px;
+    font-size: 20px;
+}
+
+.div-winners{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-top: 700px;
+    font-size: 30px;
+    width: 1000px;
+    justify-content: space-evenly;
+    color: #66609e;
+}
+
+#color{
+    color: #ddb43f;
+}
+
+.nada{
+    background-color: RGB(28, 27, 59) !important;
+    box-shadow: none !important;
+}
+
+#premios-entregados{
+    position: absolute;
+    top: 450px;
+    text-align: center;
+    left: 0;
+    font-size: 40px;
+    color: white;
+}
+
+#buzo{
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    top: 122.2px;
+    /* background-color: #0d96fe; */
+    left: 120px;
+    padding: 18.3px 0;
+}
+
+#pc{
+    padding: 18.3px 0;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: -4.4px;
+    left: 120px;
+    /* background-color: #79a1c0; */
+}
+
+#mousepad{
+    padding: 18.3px 0;
+    /* background-color: #882172; */
+    min-width: 100px;
+    top: 251.3px;
+    left: 325px;
+    position: absolute;
+}
+
+#sticker{
+    padding: 18.3px 0;
+    /* background-color: #3baa08; */
+    width: 100px;
+    top: 251.3px;
+    left: 120px;
+    position: absolute;
+}
+
+#remera{
+    padding: 18.3px 0;
+    /* background-color: #aa2020; */
+    width: 100px;
+    
+    top: 122.2px;
+    left: 325px;
+    position: absolute;
+}
+
+#llavero{
+    padding: 18.3px 0;
+    /* background-color: #f700ff; */
+    width: 100px;
+    top: 377.6px;
+    left: 120px;
+    position: absolute;
+}
+
+#balance{
+    padding: 18.3px 0;
+    /* background-color: #890dfe; */
+    width: 100px;
+    top: -4.4px;
+    left: 325px;
+    position: absolute;
+}
